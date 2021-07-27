@@ -1,7 +1,7 @@
 # Quran-svg-mobile
 Editing Svg output files from [Quran SVG](https://github.com/batoulapps/quran-svg) repository, to be more suitable with mobile applications, by removing unneeded layers and remove white margin from svg files.
 
-Using [XMLDocument] (https://developer.apple.com/documentation/foundation/xmldocument) to remove unneeded layers and [Inkscape](https://inkscape.org) remove white margin.
+Using [XMLDocument](https://developer.apple.com/documentation/foundation/xmldocument) to remove unneeded layers and [Inkscape](https://inkscape.org) remove white margin.
 
 ## Sample for input file:
 
