@@ -9,14 +9,14 @@ import Foundation
 
 
 // remove unneeded layers
-for i in 0..<603 {
+for i in 0..<604 {
     let pageNumber = i < 9 ? "00\(i+1)" : i < 99 ? "0\(i+1)" : "\(i+1)"
     print("pageNumber", pageNumber)
     tryToRemoveExtraShapes(pageNumber: pageNumber)
 }
 
 // remove extra margin
-for i in 0..<603 {
+for i in 0..<604 {
     let pageNumber = i < 9 ? "00\(i+1)" : i < 99 ? "0\(i+1)" : "\(i+1)"
     print("pageNumber", pageNumber)
     let path = "output/\(pageNumber)_updated.svg"
